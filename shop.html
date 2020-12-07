@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset='UTF-8'></meta>
+<title>商店 - 唱片小屋</title>
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/galleria-1.4.2.min.js"></script>
+<style>
+a:link,a:visited{text-decoration:none;color:black;}
+body {background:url(imgs/bj.jpg)} 
+ul{list-style-type:none;margin:10;padding:100;overflow:hidden;}
+.A a:link,.A a:visited{display:block;width:100px;font-weight:bold;color:#FFFFFF;background-color:#bebebe;text-align:center;padding:4px;text-decoration:none;text-transform:uppercase;}
+.A a:hover,.A a:active{background-color:#CD853F;}
+.B li{float:left;margin-bottom:auto;position:relative;left:63px;}
+#C{clear: both;}
+#C a{color:#FFFFFF;padding:4px;display: none;}
+#li2{position:relative;top:63px}
+#li3{position:relative;top:63px}
+#li3:hover a{display: block; margin-bottom: 10px;}
+.galleria{ width: 800px; height: 480px; background: #CD853F;}
+#title-box {position:absolute;top:25px;left:500px;font-size: 35px; font-weight: bold;color: black ;letter-spacing:3px;}
+#title-fu {position:absolute;top:40px;left:700px;font-size: 20px;  font-weight: bold;color: black ;}
+#foot-box {margin: 0px auto; width: 70%; height: 80px; line-height: 80px; font-size: 20px; text-align: center; color: #200040; border-radius: 10px; background-image:url(04.jpg);}
+</style>
+</head>
+<body>
+<div class="A">
+	<div id='title-box'>唱片小屋</div>
+	<div id='title-fu'>——让耳朵去旅行</div>
+    <div class="B">
+		<ul>
+			<li id='li1'><img src='imgs/sign.jpg' width='120' height='90' style='border-radius:10px'></img></li>
+			<li id='li2'><a href="index.html">首页</a></li>
+			<li id='li2'><a href="disc.html">专辑</a></li>
+			<li id='li2'><a href="singer.html" >歌手</a></li>
+			<li id='li2'><a href="lyric.html">歌词</a></li>
+			<li id='li2'><a href="concert.html">演出</a></li> 
+			<li id='li2'><a href="shop.html">商店</a></li> 
+			<li id='li3'><a href="fans.html" >社区</a>
+					<div id="C" class="D">
+							<a href="fans.html" >fans邦</a>
+							<a href="group.html">论坛</a>
+							<a href="fans.html" ></a>
+							<a href="fans.html" >fans邦</a>
+					</div>
+			</li>
+			<li id='li2'><a  href="login.html">登录</a></li>
+			<li id='li2'><a href="register.html">注册</a><li>
+		</ul>
+	</div>
+</div>
+<table valign="top" cellspacing='20' style='border-radius:10px' width='90%' border='1' align='center'>
+	<tr>
+		<td>
+		<table align="center" cellspacing='20' background="imgs/bg1.jpg" style='border-radius:10px' width='250'>
+			<tr>
+				<td><font size='5'><b>演出购票</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='concert.html'><font color='#CD853F' size='2'><b>>></b></font></a><hr></td>
+			</tr>
+			<tr><td><a href='yc.html'>04月17日 SOULBLAST ！ – 透明雜誌 / Emptybottles. – 2016年中国巡回 武汉VOX LIVEHOUS</a></td></tr>
+			<tr><td><a href='yc.html'>04月22日 【秀动呈献】北漂团伙“摇滚妞”—纯女子乐队专场 武汉VOX LIVEHOUSE</a></td></tr>
+			<tr><td><a href='yc.html'>04月23日 武汉psychedelic trance灵族电音PA 武汉YAO LIVEHOUSE </a></td></tr>
+			<tr><td><a href='yc.html'>04月26日 大麦哲伦乐队首张 EP《GOOD LUCK》全国巡演 武汉VOX LIVEHOUSE04月26日 大麦哲伦乐队首张 EP《GOOD LUCK》全国巡演 武汉VOX LIVEHOUSE</a></td></tr>
+			<tr><td><a href='yc.html'>04月27日 加拿大金属机器THE ORDER OF CHAOS乐队2016年中国巡演 武汉VOX LIVEHOUSE</a></td></tr>
+			<tr><td><a href='yc.html'>04月29日 Le Villejuif Underground 假假條乐队JaJaTao乐队首次中国联合巡演 武汉VOX LIVEHOUSE</a></td></tr>
+			<tr><td><a href='yc.html'>04月30日 “穷游，不碍听，不碍唱” 独立唱作人 李佳丹 全国巡演 武汉CoastlineBar</a></td></tr>
+			<tr><td><a href='yc.html'>05月12日 【秀动呈献】潘高峰&丁少华2016联合全国巡演 武汉VOX LIVEHOUSE</a></td></tr>
+			<tr><td><a href='yc.html'>05月28日 《继续混蛋》 | 我“槽”你的2016 – 曹槽全国巡演五月篇 武汉VOX LIVEHOUSE </a></td></tr>
+			<tr><td><a href='yc.html'>05月29日 非鱼乐队《我已经好多了》2016 新专全国巡演 武汉VOX LIVEHOUSE</a></td></tr>
+		</table>
+		</td>
+		<td width='10px'></td>
+		<td rowspan='4'>
+			<div class='E'>
+				<div align="center">
+					<div class="galleria">
+					<img src="images/13.jpg">
+					<img src="images/12.jpg">
+					<img src="images/10.jpg">
+					<img src="images/9.jpg">
+				</div>
+				</div>
+				<script>
+					Galleria.loadTheme('themes/classic/galleria.classic.min.js');
+					Galleria.run('.galleria');
+				</script>
+			</div>
+			<p>&nbsp;</br>&nbsp;</br></p>
+			<div>
+			<table width='100%'  background='imgs/bg1.jpg'>
+				<tr>
+					<td><a href='yc.html'><img src='images/yc1.jpg' width='200' height='267'></img>
+						</br>04月17日 SOULBLAST ！ – 透明雜誌 / Emptybottles. – 2016年中国巡回 武汉VOX LIVEHOUS</br>演出时间：04月17日 20:30-22:30 </br>场地： 武汉 VOX LIVEHOUSE（武昌店）</br>票价：￥80</br><input type="button" value="点击购票"></input></a></td>
+					<td><a href='yc.html'><img src='images/yc2.jpg' width='200' height='267'></img></a>
+						</br>04月22日 【秀动呈献】北漂团伙“摇滚妞”—纯女子乐队专场 武汉VOX LIVEHOUSE</br>演出时间：04月22日 20:30-22:30 </br>场地： 武汉 VOX LIVEHOUSE（武昌店）</br>票价：￥80 </br><input type="button" value="点击购票"></input></a></td>
+					<td><a href='yc.html'><img src='images/yc3.jpg' width='200' height='267'></img></a>
+						</br>04月30日 “穷游，不碍听，不碍唱” 独立唱作人 李佳丹 全国巡演 武汉CoastlineBar</br>演出时间：04月30日 21:00-22:30</br> 场地： 武汉 CoastlineBar </br>票价：￥40 </br><input type="button" value="点击购票"></input></a></td>
+					<td><a href='yc.html'><img src='images/yc4.jpg' width='200' height='267'></img></a>
+						</br>05月29日 非鱼乐队《我已经好多了》2016 新专全国巡演 武汉VOX LIVEHOUSE</br>演出时间：05月29日 20:30-23:00 </br> 场地： 武汉 VOX LIVEHOUSE（武昌店）</br> 票价：￥100 </br><input type="button" value="点击购票"></input></a></td>
+				</tr>
+				<tr><td colspan='4'></td></tr>
+				<tr>
+					<td><a href='red.html'><img src='imgs/zj1.jpg'></img></br>RED</br>Taylor Swift</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='imgs/zj2.jpg'></img></br>告别我的恋人们</br>古巨基</b></br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='imgs/zj3.jpg'></img></br>第七感</br>张靓颖</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='imgs/zj4.jpg'></img></br>BEATUIFUL LIGHT</br>金志文</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+				</tr>
+				<tr><td colspan='4'></td></tr>
+				<tr>
+					<td><a href='poster.html'><img src='imgs/zb1.jpg'></img></br>钢琴音乐盒八音盒diy定制生日礼物创意送女友女朋友女生闺蜜幼儿园小礼品儿童</br>价格：￥66.8</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='imgs/zb2.jpg'></img></br>趴趴熊音乐抱枕 免费刺绣送眼罩 生日礼物创意礼品送女朋友特别实用</br>价格：￥139</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='images/15.jpg' width='200' height='200'></img></br>《山水之间》海报合辑</br>许嵩</br>价格：￥30</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='imgs/zb3.jpg'></img></br>索尼（SONY）可穿戴式运动防水音乐播放器 WS413 (蓝色) w273s升级版！</br>价格：￥469</br><input type="button" value="点击购买"></input></a></td>
+				</tr>
+				<tr><td colspan='4'></td></tr>
+				<tr>
+					<td><a href='poster.html'><img src='imgs/zb4.jpg'></img></br>车载CD光盘汽车专用黑胶唱片碟片 在路上之音乐旅行</br>价格：￥118</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='imgs/zb5.jpg'></img></br>索尼（SONY） NWZ-B183F/RC mp3播放器 sony 红色</br>价格：￥318</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='imgs/zb6.jpg'></img></br>先科 无线蓝牙音箱收音机手机便携式迷你插卡小音响小钢炮低音炮电脑音乐播放器</br>价格：￥83</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='poster.html'><img src='imgs/zb7.jpg'></img></br>励果乐享 生日礼品 阿拉神灯 创意音乐台灯蓝牙音响闹钟 结婚生日礼物送男女生</br>价格：￥69</br><input type="button" value="点击购买"></input></a></td>
+				</tr>
+				<tr><td colspan='4'></td></tr>
+				<tr>
+					<td><a href='red.html'><img src='images/xu2.jpg' width='200' height='200'></img></br>梦游计</br>许嵩</br>价格：￥68</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/xu4.jpg' width='200' height='200'></img></br>苏格拉没有底</br>许嵩</b></br>价格：￥68</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/xu3.jpg' width='200' height='200'></img></br>寻雾启示</br>许嵩</br>价格：￥68</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/xu5.jpg' width='200' height='200'></img></br>自定义</br>许嵩</br>价格：￥68</br><input type="button" value="点击购买"></input></a></td>
+				</tr>
+				<tr><td colspan='4'></td></tr>
+				<tr>
+					<td><a href='red.html'><img src='images/3.jpg' width='200' height='200'></img></br>Sugar</br>Maroon 5</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/4.jpg' width='200' height='200'></img></br>秋· 故事</br>苏打绿</b></br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/8.jpg' width='200' height='200'></img></br>丑八怪</br>薛之谦</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+					<td><a href='red.html'><img src='images/9.jpg' width='200' height='200'></img></br>幸福了 然后呢</br>A-Lin</br>价格：￥60</br><input type="button" value="点击购买"></input></a></td>
+				</tr>
+			</table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td height='120'>
+		<table align="center" cellspacing='20' background="imgs/bg1.jpg" style='border-radius:10px' width='250'>
+			<tr>
+				<td><font size='5'><b>周边推荐&nbsp;&nbsp;&nbsp;<font color='#CD853F' size='2'><b>>></b></font><hr></td>
+			</tr>
+			<tr><td><a href='poster.html'><img src='images/15.jpg' width='200'></img></a></br>01 《山水之间》海报合辑</a></td></tr>
+			<tr><td><a href='poster.html'>02 许嵩摄影随笔集《海上灵光》</a></td></tr>
+			<tr><td><a href='poster.html'>03 索尼（SONY）可穿戴式运动防水音乐播放器 WS413 (蓝色) w273s升级版！</a></td></tr>
+			<tr><td><a href='poster.html'>04 车载CD光盘汽车专用黑胶唱片碟片 在路上之音乐旅行</a></td></tr>
+			<tr><td><a href='poster.html'>05 先科 无线蓝牙音箱收音机手机便携式迷你插卡小音响小钢炮低音炮电脑音乐播放器</a></td></tr>
+			<tr><td><a href='poster.html'>06 索尼（SONY） NWZ-B183F/RC mp3播放器 sony 红色</a></td></tr>
+			<tr><td><a href='poster.html'>07 趴趴熊音乐抱枕 免费刺绣送眼罩 生日礼物创意礼品送女朋友特别实用</a></td></tr>
+			<tr><td><a href='poster.html'>08 励果乐享 生日礼品 阿拉神灯 创意音乐台灯蓝牙音响闹钟 结婚生日礼物送男女生</a></td></tr>
+			<tr><td><a href='poster.html'>09 钢琴音乐盒八音盒diy定制生日礼物创意送女友女朋友女生闺蜜幼儿园小礼品儿童</a></td></tr>
+		</table>
+		</td>
+		<td width='10px'></td>
+	</tr>
+	<tr>
+		<td height='120'>
+		<table align="center" cellspacing='20' background="imgs/bg1.jpg" style='border-radius:10px' width='250'>
+			<tr>
+				<td><font size='5'><b>热销专辑&nbsp;&nbsp;&nbsp;<font color='#CD853F' size='2'><b>>></b></font><hr></td>
+			</tr>
+			<tr><td><a href='RED.html'>01 RED   Talyor Swfit</a></td></tr>
+			<tr><td><a href='RED.html'>02 不如吃茶去   许嵩</a></td></tr>
+			<tr><td><a href='RED.html'>03 绅士   薛之谦</a></td></tr>
+			<tr><td><a href='RED.html'>04 我很忙   周杰伦</a></td></tr>
+			<tr><td><a href='RED.html'>05 秋· 故事  苏打绿</a></td></tr>
+			<tr><td><a href='RED.html'>06 她说   林俊杰</a></td></tr>
+			<tr><td><a href='RED.html'>07 敷衍   王菲</a></td></tr>
+			<tr><td><a href='RED.html'>08 真心话大冒险  TFBoys</a></td></tr>
+			<tr><td><a href='RED.html'>09 MADE SERISE   BIG BANG</a></td></tr>
+			<tr><td><a href='RED.html'>10 有理想   李荣浩</a></td></tr>
+		</table>	
+		</td>
+		<td width='10px'></td>
+	</tr>
+	<tr><td>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></td><td></td></tr>
+</table>
+<div id="foot-box">
+	中南财经政法大学 市营1302CJ 版权所有
+</div>
+</body>
+</html>
